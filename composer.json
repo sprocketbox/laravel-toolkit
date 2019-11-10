@@ -1,0 +1,18 @@
+{
+    "name": "sprocketbox/laravel-toolkit",
+    "description": "A Laravel toolkit for getting started",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ollie Read",
+            "email": "ollie@sprocketbox.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sprocketbox\\Toolkit\\" : "src/"
+        }
+    },
+    "require": {}
+}
