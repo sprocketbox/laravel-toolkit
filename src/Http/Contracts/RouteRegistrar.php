@@ -1,6 +1,6 @@
 <?php
 
-namespace Sprocketbox\Toolkit\Contracts;
+namespace Sprocketbox\Toolkit\Http\Contracts;
 
 use Illuminate\Routing\Router;
 
