@@ -1,6 +1,16 @@
 {
   "name": "sprocketbox/laravel-toolkit",
-  "description": "A Laravel toolkit for getting started",
+  "description": "A Laravel toolkit providing supporting functionality",
+  "keywords": [
+    "laravel",
+    "toolkit",
+    "validation",
+    "database",
+    "http",
+    "api",
+    "middleware",
+    "database-expressions"
+  ],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -16,7 +26,9 @@
   },
   "require": {
     "php": "^7.4",
-    "illuminate/routing": "^6.0"
+    "illuminate/routing": "^6.0",
+    "illuminate/database": "^6.0",
+    "illuminate/validation": "^6.0"
   },
   "extra": {
     "laravel": {
