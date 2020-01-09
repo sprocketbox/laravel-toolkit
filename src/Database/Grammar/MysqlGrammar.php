@@ -2,7 +2,9 @@
 
 namespace Sprocketbox\Toolkit\Database\Grammar;
 
-class MysqlGrammar
+use Illuminate\Database\Query\Grammars\MySqlGrammar as BaseMysqlGrammar;
+
+class MysqlGrammar extends BaseMysqlGrammar
 {
 
 }
