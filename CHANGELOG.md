@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2020-01-09
+## [1.0.0-alpha] - 2020-01-17
 - Initial release
 
-[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.0...develop
-[1.0.0]: https://github.com/sprocketbox/laravel-toolkit/releases/tag/v1.0
+[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.0-alpha...develop
+[1.0.0]: https://github.com/sprocketbox/laravel-toolkit/releases/tag/v1.0.0-alpha
