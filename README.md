@@ -6,3 +6,6 @@
 - **License**: MIT
 - **Author**: Ollie Read 
 - **Author Homepage**: https://sprocketbox.io
+
+This toolkit adds additional supporting functionality to Laravel.
+
