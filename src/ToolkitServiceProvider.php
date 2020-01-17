@@ -50,6 +50,6 @@ class ToolkitServiceProvider extends ServiceProvider
 
     private function registerBuilderExtensions(): void
     {
-        Builder::mixin(new ExpressionExtension);
+        //Builder::mixin(new ExpressionExtension);
     }
 }
