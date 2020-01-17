@@ -1,18 +1,40 @@
 {
-    "name": "sprocketbox/laravel-toolkit",
-    "description": "A Laravel toolkit for getting started",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ollie Read",
-            "email": "ollie@sprocketbox.io"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Sprocketbox\\Toolkit\\" : "src/"
-        }
-    },
-    "require": {}
+  "name": "sprocketbox/laravel-toolkit",
+  "description": "A Laravel toolkit providing supporting functionality",
+  "keywords": [
+    "laravel",
+    "toolkit",
+    "validation",
+    "database",
+    "http",
+    "api",
+    "middleware",
+    "database-expressions"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ollie Read",
+      "email": "ollie@sprocketbox.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sprocketbox\\Toolkit\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "illuminate/routing": "^6.0",
+    "illuminate/database": "^6.0",
+    "illuminate/validation": "^6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sprocketbox\\Toolkit\\ToolkitServiceProvider"
+      ]
+    }
+  }
 }

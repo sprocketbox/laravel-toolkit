@@ -1,6 +1,6 @@
 <?php
 
-namespace Sprocketbox\Toolkit\Concerns;
+namespace Sprocketbox\Toolkit\Http\Concerns;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
@@ -12,10 +12,26 @@ use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use League\Fractal\Resource\Collection as ResourceCollection;
 use League\Fractal\Resource\Item as ResourceItem;
 
+/**
+ * Trait TransformsResponses
+ *
+ * Helps with transforming responses using Fractal.
+ *
+ * @package Sprocketbox\Toolkit\Concerns
+ */
 trait TransformsResponses
 {
     use RespondsToRequests;
 
+    /**
+     * Transform the data using a fractal transformer.
+     *
+     * @param        $data
+     * @param string $transformer
+     * @param array  $meta
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
     protected function transform($data, string $transformer, array $meta = []): JsonResponse
     {
         try {

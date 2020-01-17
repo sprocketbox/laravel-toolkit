@@ -1,9 +1,9 @@
 <?php
 
-namespace Sprocketbox\Toolkit;
+namespace Sprocketbox\Toolkit\Http;
 
 use Illuminate\Routing\Router;
-use Sprocketbox\Toolkit\Contracts\RouteRegistrar;
+use Sprocketbox\Toolkit\Http\Contracts\RouteRegistrar;
 
 /**
  * Class Routes
@@ -17,15 +17,15 @@ class Routes
     /**
      * @var array
      */
-    private $routes = [];
+    private array $routes = [];
 
     /**
      * Register a route registrar for mapping.
      *
-     * @param \Sprocketbox\Toolkit\Contracts\RouteRegistrar $routes
-     * @param string                                        $group
+     * @param \Sprocketbox\Toolkit\Http\Contracts\RouteRegistrar $routes
+     * @param string                                             $group
      *
-     * @return \Sprocketbox\Toolkit\Routes
+     * @return \Sprocketbox\Toolkit\Http\Routes
      */
     public function register(RouteRegistrar $routes, $group = 'default'): self
     {
