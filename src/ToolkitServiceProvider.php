@@ -19,7 +19,9 @@ class ToolkitServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->registerMiddleware();
-        $this->registerGrammarOverride();
+        // This has been commented out for now because of the issues it's causing
+        // I'm not sure why it's causing these issues, but I will investigate
+        // $this->registerGrammarOverride();
         $this->registerBuilderExtensions();
     }
 
