@@ -1,6 +1,6 @@
 <?php
 
-namespace Sprocketbox\Toolkit\Http\Contracts;
+namespace Sprocketbox\Toolkit\Operations\Contracts;
 
 /**
  * Interface Operation
