@@ -58,7 +58,7 @@ abstract class Operation implements Contracts\Operation
      *
      * @return array
      */
-    protected function getAttributes(array $properties, $skipIfNull = false): array
+    protected function getPropertiesAsAttributes(array $properties, $skipIfNull = false): array
     {
         $attributes = [];
 
