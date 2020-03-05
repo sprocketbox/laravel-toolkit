@@ -15,7 +15,7 @@ abstract class Operation implements Contracts\Operation
     public static function start(): self
     {
         try {
-            return Container::getInstance()->make(__CLASS__, func_get_args());
+            return Container::getInstance()->make(static::class, func_get_args());
         } catch (BindingResolutionException $e) {
             report($e);
         }
