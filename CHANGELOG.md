@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Fixed
+
+## [2.0.1-beta] - 2020-03-05
 - Fixed operation self class reference for the `Operation::start()` method.
 
 ## [2.0.0-beta] - 2020-03-03
