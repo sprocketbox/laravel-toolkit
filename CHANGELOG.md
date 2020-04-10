@@ -43,7 +43,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0-alpha] - 2020-01-17
 - Initial release
 
-[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.0-beta...develop
+[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.1.0-beta...develop
+[2.1.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.1-beta...v2.1.0-beta
+[2.0.1-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.0-beta...v2.0.1-beta
 [2.0.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.0-beta...v2.0.0-beta
 [1.0.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.1-alpha...v1.0.0-beta
 [1.0.2-alpha]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.1-alpha...v1.0.2-alpha
