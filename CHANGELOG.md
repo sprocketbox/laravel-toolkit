@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0-beta] - 2020-09-09
+## Updated
+- Updated to support Laravel 8
+## Fixed
+- Fixed a bug where `ModelOperation::getModel()` couldn't return null
+- Fixed a bug where `Operation::shouldSkip()` wasn't behaving correctly
+
 ## [2.1.0-beta] - 2020-04-10
 ## Added
 - Added abstract operation for dealing with create & update events on models

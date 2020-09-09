@@ -90,7 +90,7 @@ abstract class Operation implements Contracts\Operation
      */
     private function shouldSkip(string $property, $skipIfNull = false): bool
     {
-        return (! isset($this->{$property}) && $this->{$property} === null)
+        return (! isset($this->{$property}) || $this->{$property} === null)
             && ($skipIfNull === true || (is_array($skipIfNull) && in_array($property, $skipIfNull, true)));
     }
 }

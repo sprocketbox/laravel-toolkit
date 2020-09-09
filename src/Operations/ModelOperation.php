@@ -12,9 +12,9 @@ use Illuminate\Database\Eloquent\Model;
 abstract class ModelOperation extends Operation
 {
     /**
-     * @return \Illuminate\Database\Eloquent\Model
+     * @return \Illuminate\Database\Eloquent\Model|null
      */
-    abstract protected function getModel(): Model;
+    abstract protected function getModel(): ?Model;
 
     /**
      * @return array
