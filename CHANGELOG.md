@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0-beta] - 2020-09-09
+## Updated
+- Updated to support Laravel 8
+## Fixed
+- Fixed a bug where `ModelOperation::getModel()` couldn't return null
+- Fixed a bug where `Operation::shouldSkip()` wasn't behaving correctly
+
 ## [2.1.0-beta] - 2020-04-10
 ## Added
 - Added abstract operation for dealing with create & update events on models
@@ -43,7 +50,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0-alpha] - 2020-01-17
 - Initial release
 
-[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.0-beta...develop
+[Unreleased]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.1.0-beta...develop
+[2.1.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.1-beta...v2.1.0-beta
+[2.0.1-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v2.0.0-beta...v2.0.1-beta
 [2.0.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.0-beta...v2.0.0-beta
 [1.0.0-beta]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.1-alpha...v1.0.0-beta
 [1.0.2-alpha]: https://github.com/sprocketbox/laravel-toolkit/compare/v1.0.1-alpha...v1.0.2-alpha
